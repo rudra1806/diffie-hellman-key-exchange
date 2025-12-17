@@ -1,4 +1,4 @@
-# 🔐 Diffie-Hellman Key Exchange (C++)
+# Diffie-Hellman Key Exchange (C++)
 
 ### A simple simulation of secure key sharing
 
@@ -9,7 +9,7 @@ I built this project to move beyond cryptography theory and gain hands-on unders
 
 ---
 
-## 🚀 What this project includes
+## What this project includes
 
 This is not just a single file program — it is structured like a real C++ project.
 
@@ -24,7 +24,7 @@ This is not just a single file program — it is structured like a real C++ proj
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 Diffie-Hellman-Cpp/
@@ -37,7 +37,7 @@ Diffie-Hellman-Cpp/
 
 ```
 
-## 💻 How to Run
+## How to Run
 
 You can compile and run this project using either **G++** or **CMake**.
 
@@ -59,7 +59,7 @@ cmake --build .
 ./Debug/DiffieKeyExchange.exe
 ```
 
-## 🧪 Sample Output
+## Sample Output
 
 Below is an example output showing a successful Diffie-Hellman key exchange between two users:
 
@@ -83,7 +83,7 @@ Bob's Calculated Secret:   1086
 
 [SUCCESS] Secure connection established! Shared secret is 1086
 ```
-## 🧠 The Math Behind the Code
+## The Math Behind the Code
 
 The security of this implementation relies on the **Discrete Logarithm Problem**. In simple terms: it is very easy to mix paint (calculate the public key), but computationally impossible to un-mix it to find the original colors (reverse-engineer the private key).
 
@@ -119,6 +119,4 @@ Therefore: **`S = G^ab mod P`**
 
 ---
 
-## 👤 Author
-
-**Rudra Sanandiya**
+*Created by **Rudra Sanandiya**. Licensed under MIT.*
